@@ -27,13 +27,13 @@ public abstract class Patient
 	void input()
 	{
 		name=JOptionPane.showInputDialog("enter patient's name: ");
-		/*cnic=JOptionPane.showInputDialog("enter patient's cnic: ");
+		cnic=JOptionPane.showInputDialog("enter patient's cnic: ");
 		address=JOptionPane.showInputDialog("enter patient's address: ");
 		String p=JOptionPane.showInputDialog("enter patient's phone number: ");
 		phone=Integer.parseInt(p);
 		gender=JOptionPane.showInputDialog("enter patient's gender: ");
 		String a=JOptionPane.showInputDialog("enter patient's age: ");
-		age=Integer.parseInt(a);*/
+		age=Integer.parseInt(a);
 	}
 	abstract void input2(Doctor doc);
 	abstract int getday();
