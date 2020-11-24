@@ -36,8 +36,8 @@ public class OutdoorPatient extends Patient
 		d=doc;
 		dappoint.input();
 		tappoint.input();
-		/*String f=JOptionPane.showInputDialog("enter outdoor patient's fee: ");
-		fee=Integer.parseInt(f);*/
+		String f=JOptionPane.showInputDialog("enter outdoor patient's fee: ");
+		fee=Integer.parseInt(f);
 	}
 	public String toString()
 	{
