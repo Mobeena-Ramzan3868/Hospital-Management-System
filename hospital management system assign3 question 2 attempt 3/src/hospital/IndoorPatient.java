@@ -33,13 +33,13 @@ public class IndoorPatient extends Patient
 	void input()
 	{
 		super.input();
-		/*String w=JOptionPane.showInputDialog("enter indoor patient's ward number: ");
+		String w=JOptionPane.showInputDialog("enter indoor patient's ward number: ");
 		ward=Integer.parseInt(w);
 		String r=JOptionPane.showInputDialog("enter indoor patient's room number: ");
 		roomno=Integer.parseInt(r);
 		String b=JOptionPane.showInputDialog("enter indoor patient's bed number: ");
 		bedno=Integer.parseInt(b);
-		admission.input();*/
+		admission.input();
 	}
 	void input2(Doctor doc)
 	{
