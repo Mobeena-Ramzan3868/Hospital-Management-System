@@ -26,12 +26,12 @@ public class Doctor
 	void input()
 	{
 		name=JOptionPane.showInputDialog("enter doctor's name: ");
-		//cnic=JOptionPane.showInputDialog("enter doctor's cnic: ");
-		//String p=JOptionPane.showInputDialog("enter doctor's phone number: ");
-		//phone=Integer.parseInt(p);
-		//gender=JOptionPane.showInputDialog("enter doctor's gender: ");
+		cnic=JOptionPane.showInputDialog("enter doctor's cnic: ");
+		String p=JOptionPane.showInputDialog("enter doctor's phone number: ");
+		phone=Integer.parseInt(p);
+		gender=JOptionPane.showInputDialog("enter doctor's gender: ");
 		depart=JOptionPane.showInputDialog("enter doctor's department name: ");
-		//specialize=JOptionPane.showInputDialog("enter doctor's specialization: ");
+		specialize=JOptionPane.showInputDialog("enter doctor's specialization: ");
 	}
 	public String toString()
 	{
